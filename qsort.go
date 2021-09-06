@@ -26,7 +26,7 @@ func qsort(arr []int) []int {
 		return arr
 	}
 
-	pivot := arr[0]
+	pivot := arr[(len(arr)-1)/2]
 
 	less := devide(arr, pivot, func(value int, pivot int) bool {
 		if value < pivot {
