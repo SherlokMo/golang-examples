@@ -9,7 +9,7 @@ type rect struct {
 
 //pointer passing
 func (r *rect) area() int {
-	return r.height * r.height
+	return r.height * r.width
 }
 
 //value passing
