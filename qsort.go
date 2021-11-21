@@ -55,4 +55,13 @@ func main() {
 	fmt.Println(qsort([]int{9, 8, 6, 5, 4, 2}))
 
 	fmt.Printf("qsort took %s", time.Since(start))
+
+	fmt.Println("")
+
+	start = time.Now()
+
+	fmt.Println(qsort([]int{9, 20, 50, 5, 4, 2, 90}))
+
+	fmt.Printf("qsort took %s", time.Since(start))
+
 }
